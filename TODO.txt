@@ -1,0 +1,7 @@
+En Passant
+Pawn Transform on last row
+Castling:
+    rooks part
+    kings part
+Record moves?
+Show checkmate

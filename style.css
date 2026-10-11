@@ -1,0 +1,47 @@
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    list-style: none;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+img {
+    width: 70px;
+}
+
+.marked {
+    background-color: rgb(191, 230, 255) !important;
+}
+
+.markedPiece {
+    background-color: rgb(243, 144, 144) !important;
+}
+
+.markedForCapture {
+    background-color: brown !important;
+}
+
+.markedKing {
+    background-color: rgb(236, 23, 23) !important;
+}
+
+/* .whiteDangerZone {
+    background-color: rgb(123, 31, 31) !important;
+}
+
+.blackDangerZone {
+    background-color: rgb(67, 17, 17) !important;
+} */
